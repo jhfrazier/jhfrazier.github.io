@@ -2,7 +2,7 @@
  "name": "flare",
  "children": [
   {
-   "name": "analytics",
+   "name": "Branch number 3",
    "children": [
     {
      "name": "cluster",
@@ -241,7 +241,7 @@
    ]
   },
   {
-   "name": "vis",
+   "name": "testing branch text",
    "children": [
     {
      "name": "axis",
