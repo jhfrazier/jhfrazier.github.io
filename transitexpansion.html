@@ -8,7 +8,6 @@
 	<title>Transit Expansion in the United States</title>
 
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-<link rel="stylesheet" href="transitmapcss.css" />
 <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 <script src="http://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js"></script>
 
@@ -26,7 +25,7 @@
 			attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>'
 		}).addTo(map);
 
-var runLayer = omnivore.kml('transitexpansion/TPMajorTransitInvestments2014.kml')
+var runLayer = omnivore.kml('/transitexpansion/TPMajorTransitInvestments2014.kml')
     .on('ready', function() {
         // After the 'ready' event fires, the GeoJSON contents are accessible
         // and you can iterate through layers to bind custom popups.
